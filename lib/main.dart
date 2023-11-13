@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
 
   Future<List<Employees>> fetchData() async {
     final response =
-        await http.get(Uri.parse('http://192.168.1.5/pertemuan_5/list.php'));
+        await http.get(Uri.parse('http://192.168.100.62/pertemuan_5/list.php'));
 
     if (response.statusCode == 200) {
       Iterable data = json.decode(response.body);
