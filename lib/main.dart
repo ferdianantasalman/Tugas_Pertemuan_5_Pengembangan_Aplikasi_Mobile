@@ -36,6 +36,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.amber,
           title: Text('MyAplikasi'),
         ),
         body: FutureBuilder(
@@ -60,7 +61,7 @@ class _MyAppState extends State<MyApp> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.white,
-                          border: Border.all(color: Colors.blue)),
+                          border: Border.all(color: Colors.amber)),
                       child: Padding(
                         padding: const EdgeInsets.only(left: 10),
                         child: Row(
